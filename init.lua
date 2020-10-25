@@ -165,9 +165,9 @@ minetest.register_node("medieval_inner_glasses:holy_dirt", {
 
 minetest.register_node("medieval_inner_glasses:ring", {
 	tiles = {"default_gold_block.png"},
-	drawtype = "nodebox",
   light_source = 7,
 	paramtype = "light",
+  drawtype = "nodebox",
 	node_box = {
 		type = "fixed",
 		fixed = {
