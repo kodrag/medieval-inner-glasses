@@ -11,7 +11,7 @@ function glasses(texture,name)
           groups = {oddly_breakable_by_hand=2, cracky=2},
 	        paramtype = "light",
           paramtype2 = "facedir",
-          sunlight_propagates = "true",
+          sunlight_propagates = true,
 	        drawtype = "nodebox",
           node_box = {
 	       type = "fixed",
@@ -48,7 +48,7 @@ function glasses(texture,name)
           light_source = 14,
 	        paramtype = "light",
           paramtype2 = "facedir",
-          sunlight_propagates = "true",
+          sunlight_propagates = true,
 	        drawtype = "nodebox",
           node_box = {
 	       type = "fixed",
@@ -84,7 +84,7 @@ function glasses(texture,name)
           groups = {oddly_breakable_by_hand=2, cracky=2},
 	        paramtype = "light",
           paramtype2 = "facedir",
-          sunlight_propagates = "true",
+          sunlight_propagates = true,
 	        drawtype = "nodebox",
           node_box = {
 	       type = "fixed",
@@ -121,7 +121,7 @@ function glasses(texture,name)
           light_source = 14,
 	        paramtype = "light",
           paramtype2 = "facedir",
-          sunlight_propagates = "true",
+          sunlight_propagates = true,
 	        drawtype = "nodebox",
           node_box = {
 	       type = "fixed",
